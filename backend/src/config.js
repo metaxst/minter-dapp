@@ -58,7 +58,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'VILLE.SOCIAL';
+const CONTRACT_NAME = 'Ville Founders Portal';
 const CONTRACT_SYMBOL = 'VIL';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x7561260C065864605B84A14587DE0b7A8C2f7372';
@@ -84,7 +84,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Mint your Ville founders portal"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Ville founders portal"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeihiicgtuukqaax4texmzg4gzyfh72q5c5vzh6bam2ky476mleohmq"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
