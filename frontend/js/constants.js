@@ -1,5 +1,5 @@
-const contractAddress = "0x5327147A871dcB4c51FC302035b1Ee82cfe486cD"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x67B9fb58982344360BA204E70540002Fe84Ef65C"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Ville.Social Founders Portal";
 const welcome_h2 = "Connect your MetaMask to Get Started";
