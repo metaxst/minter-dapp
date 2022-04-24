@@ -104,7 +104,7 @@ try {
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://ville.social/whitelist",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
@@ -114,10 +114,10 @@ const solanaMetadata = {
 };
 
 const gif = {
-  export: false,
+  export: true,
   repeat: 0,
-  quality: 100,
-  delay: 500,
+  quality: 80,
+  delay: 50,
 };
 
 const text = {
@@ -156,11 +156,11 @@ const preview = {
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 30,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
-  delay: 500,
+  delay: 50,
   imageName: "preview.gif",
 };
 
