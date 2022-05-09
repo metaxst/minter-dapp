@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Ville Founders Portal";
 const description = "Your founders pass is a 1/7k pass to the Ville Alpha Launch";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "https://ipfs.io/ipfs/bafybeihiicgtuukqaax4texmzg4gzyfh72q5c5vzh6bam2ky476mleohmq"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
